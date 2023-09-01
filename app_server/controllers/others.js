@@ -1,5 +1,7 @@
 const about = (req,res) =>{
-    res.render('about',{title:"About"});
+    res.render('index',{title:"About"});
 };
 module.exports = {
-    about};
+    about
+};
+  
