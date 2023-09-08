@@ -8,5 +8,5 @@ const addReview = (req,res) =>{
     res.render('index',{title:"Review page"});
 };
 module.exports = {
-    homelist,locationInfo,addReview
+    homelist,locationInfo,addReview 
 };
